@@ -71,7 +71,7 @@ header {
 #background {
     max-width: 1200px;
     height: 700px;
-    background-image: url(../images/img-mission-background.webp);
+    background-image: url(img-mission-background.webp);
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -136,7 +136,7 @@ I had to create extra containers to reduce the spacing of the two elements in th
     margin-top: 69px;
     max-width: 1200px;
     height: 500px;
-    background-image: url(../images/img-locations-background.webp);
+    background-image: url(img-locations-background.webp);
     background-position: center;
     display: flex;
     align-content: center;
