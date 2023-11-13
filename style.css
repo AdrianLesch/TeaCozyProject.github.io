@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+main {
+    margin-top: 138px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    color: seashell;
+}
+
+/*Header Section */
+
+header {
+    background-color: black;
+}
+
+.top-navigation {
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    display: flex;
+    position: fixed;
+    top: 0;
+}
+
+#logo {
+    justify-content: flex-start;
+}
+
+#logo img {
+    margin: 10px;
+    height: 50px;
+}
+
+#navbar {
+    justify-content: flex-end;
+}
+
+#navbar li {
+    text-decoration: underline;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+/* Main Section */
+
+.ourMission {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#background {
+    max-width: 1200px;
+    height: 700px;
+    background-image: url(../images/img-mission-background.webp);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-size: cover;
+}
+
+#paragraph {
+    width: 100%;
+    background-color: black;
+    flex-direction: column;
+}
+
+.teaOfTheMonth {
+    max-width: 1000px;
+    display: flex;
+    flex: 1 1 100px;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.sectionHeadline {
+    display: block;
+    margin-top: 69px;
+}
+
+.flexDivTea {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 70px;
+}
+
+.flexDivTea img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.flexDivTea h4 {
+    margin-top: 10px;
+}
+
+/*Not sure if that code is really necessary but it works (kinda).
+I had to create extra containers to reduce the spacing of the two elements in the second row of Tea of the Month.*/
+
+.myrtle {
+    width: 460px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.bedford {
+    width: 460px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.locations {
+    margin-top: 69px;
+    max-width: 1200px;
+    height: 500px;
+    background-image: url(../images/img-locations-background.webp);
+    background-position: center;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#locationsHeading {
+    width: 100%;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-bottom: 15px;
+}
+
+.locationsChild {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    flex-direction: column;
+    justify-content: space-evenly;
+    opacity: 1;
+}
+
+#downtown {
+    margin-left: 110px;
+}
+
+#oakdale {
+    margin-right: 110px;
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 69px;
+}
+
+#copyright {
+    margin-left: 20px;
+    text-align: left;
+}
